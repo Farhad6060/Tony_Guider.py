@@ -1,11 +1,11 @@
 # Tony_Guider.py
 I have made my first project which is a bot called Tony which can provide you sites as well as songs (only some for now). I have also added newsAPI which will give you the latest news going around at that time.  All thanks to CodewithHarry to help me with making this project. I have made it as simple as possible. Hope you like it.
 # I want to thank CodewithHarry to make me understand  this project and help me write this code.
-# This is the project "Tim Guider" which will provide you with all the things as asked such as opening sites and songs(few are included in this project). 
+# This is the project "Tony Guider" which will provide you with all the things as asked such as opening sites and songs(few are included in this project). 
 # I couldn't make a function which included songs only which when asked can from the musicLibrary(which I had created) because of some code issue.
 # I have included news which i created using API Key.
 # I could have also added OpenAI(using the API abd pip) but I didn't because I wanted to keep it simple at start.
-#Including OpenAI can make him (Tim) ask anything and he'll tell everything related to the topic asked.It will be like asking the same thing to google
+#Including OpenAI can make him (Tony) ask anything and he'll tell everything related to the topic asked.It will be like asking the same thing to google
 import speech_recognition as sr # My API Key for news related == 0469742f7ef04b338b69dfa9d32b20fc
 import webbrowser
 import pyttsx3
@@ -37,7 +37,7 @@ def processcommand(c): # I have included both-sites as well as some songs
     elif "open youtube" in c:
         webbrowser.open("https://youtube.com")
     elif "open news" in c:                           # I have used both news open from the browser as well as the API Key one.  
-        webbrowser.open("https://news.com")          # you this as a secondary source.
+        webbrowser.open("https://news.com")          # use this as a secondary source.
     elif "open stock market" in c:
         webbrowser.open("https://www.moneycontrol.com")
         #songs
