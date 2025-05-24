@@ -82,9 +82,9 @@ def processcommand(c): # I have included both-sites as well as some songs
 
 if __name__ == "__main__":
     name = input("Please enter your full name: ")
-    speak(f"Hello,{name} welcome to Tim guider")
+    speak(f"Hello,{name} welcome to Tony guider")
     
-    speak("Initializing Tim...")
+    speak("Initializing Tony...")
     recognizer = sr.Recognizer()
 
     while True:
